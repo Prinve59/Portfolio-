@@ -1,6 +1,12 @@
 import React from "react";
 import "./index.css";
+import { useScrollAnimation } from './useScrollAnimation';
+
 function Education() {
+  const [cardsRef, cardsVisible] = useScrollAnimation();
+  const [profileRef, profileVisible] = useScrollAnimation();
+  const [comingSoonRef, comingSoonVisible] = useScrollAnimation();
+  
   return (
     <div className="min-h-screen bg-[#070b1a] text-white relative overflow-hidden">
       {/* Grid background */}
@@ -23,7 +29,7 @@ function Education() {
       </div>
 
       {/* Education Cards */}
-      <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div ref={cardsRef} className={`grid md:grid-cols-3 gap-8 max-w-7xl mx-auto transition-all duration-700 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         
         {/* Card 1 */}
         <div className="border border-gray-700 rounded-2xl p-8 bg-[#0b1224] hover:border-emerald-400 transition">
@@ -73,13 +79,16 @@ function Education() {
       </div>
 
       {/* Short Profile */}
-      <h2 className="text-5xl font-mono font-bold text-white text-center mt-24 mb-10 relative inline-block overflow-hidden group cursor-pointer mx-auto flex-center">
-        <span className="relative z-10 group-hover:text-black transition-colors duration-300">Short Profile</span>
-        <span className="absolute inset-0 bg-emerald-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-      </h2>
+      <div className="flex justify-center w-full">
+        <h2 className="text-5xl font-mono font-bold text-white mt-24 mb-10 relative inline-block overflow-hidden group cursor-pointer">
+          <span className="relative z-10 group-hover:text-black transition-colors duration-300">Short Profile</span>
+          <span className="absolute inset-0 bg-emerald-400 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+        </h2>
+      </div>
+      
 
       {/* Profile Card */}
-      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
+      <div ref={profileRef} className={`max-w-5xl mx-auto grid md:grid-cols-2 gap-10 transition-all duration-700 ${profileVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         
         {/* Left Image/Gradient Card */}
         <div className="bg-gradient-to-br from-indigo-700 to-purple-700 rounded-3xl p-10 relative">
@@ -106,7 +115,7 @@ function Education() {
       </section>
 
       {/* Coming Soon Section */}
-      <section className="relative z-10 py-20 px-6">
+      <section ref={comingSoonRef} className={`relative z-10 py-20 px-6 transition-all duration-700 ${comingSoonVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
         <div className="max-w-4xl mx-auto text-center">
           <div className="relative inline-block">
             <h2 className="text-6xl font-mono font-bold text-white mb-6 animate-pulse">

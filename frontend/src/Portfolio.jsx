@@ -1,10 +1,14 @@
 import React from "react";
 import "./index.css";
+import { useScrollAnimation } from './useScrollAnimation';
 
 
 
 export default function PortfolioHero() {
-    const handleDownload = () => {
+  const [heroRef, heroVisible] = useScrollAnimation();
+  const [statsRef, statsVisible] = useScrollAnimation();
+  
+  const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "https://drive.google.com/uc?export=download&id=1qahWSbLuB6Zu0HzGZndZX6JD-ACr6vBr"; // file URL
     link.download = "myresume.pdf"; // filename
@@ -23,7 +27,7 @@ export default function PortfolioHero() {
       />
 
       {/* Navbar */}
-      <nav className="sticky top-0 z-50 flex justify-between items-center px-[9vw] py-6 bg-[#070b1a]/70 backdrop-blur-lg border-b border-emerald-400/10" style={{ minHeight: "9rem" }}>
+      <nav className="sticky top-0 z-50 flex justify-between items-center px-[9vw] py-6 bg-[#070b1a]/70 backdrop-blur-lg border-b border-emerald-400/10" style={{ minHeight: "8rem" }}>
 
         <h1 className="relative inline-block overflow-hidden font-jetbrains text-[36px] font-semibold leading-[40px] text-white transition-colors duration-300 cursor-pointer group">
           <span className="relative z-10 group-hover:text-black transition-colors duration-300">
@@ -45,7 +49,7 @@ export default function PortfolioHero() {
       <div className="h-px bg-gradient-to-r from-transparent via-emerald-400/30 to-transparent"></div>
 
       {/* Hero */}
-      <section className="relative z-10 grid md:grid-cols-2 gap-10 px-[9vw] py-16 items-center">
+      <section ref={heroRef} className={`relative z-10 grid md:grid-cols-2 gap-10 px-[9vw] py-14 items-center transition-all duration-700 ${heroVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         {/* Left */}
         <div>
           <p className="text-gray-400 mb-2">Software Engineer</p>
@@ -112,7 +116,7 @@ export default function PortfolioHero() {
       </section>
 
       {/* Stats */}
-      <section className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-10 px-8 pb-16 text-center pt-[10vh]">
+      <section ref={statsRef} className={`relative z-10 grid grid-cols-2 md:grid-cols-4 gap-10 px-8 pb-16 text-center pt-[10vh] transition-all duration-700 ${statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
         {[
           ["21", "Age"],
           ["1", "Year of experience"],
