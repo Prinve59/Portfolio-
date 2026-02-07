@@ -114,10 +114,10 @@ export default function PortfolioHero() {
       {/* Stats */}
       <section className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-10 px-8 pb-16 text-center pt-[10vh]">
         {[
-          ["22", "Age"],
-          ["2", "Years of experience"],
-          ["19", "Projects worked on"],
-          ["9", "Projects Deployed"],
+          ["21", "Age"],
+          ["1", "Year of experience"],
+          ["8", "Projects worked on"],
+          ["5", "Projects Deployed"],
         ].map(([num, label], i) => (
           <div key={i}>
             <h3 className="text-4xl font-bold">{num}</h3>

@@ -104,6 +104,32 @@ function Education() {
         </div>
       </div>
       </section>
+
+      {/* Coming Soon Section */}
+      <section className="relative z-10 py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="relative inline-block">
+            <h2 className="text-6xl font-mono font-bold text-white mb-6 animate-pulse">
+              More Coming Soon...
+            </h2>
+            <div className="absolute -inset-4 bg-emerald-400/20 blur-xl rounded-full animate-pulse"></div>
+          </div>
+          
+          <p className="text-gray-400 text-xl mt-8 mb-12">
+            🚀 Building amazing features for you
+          </p>
+
+          <div className="flex justify-center gap-4">
+            {[1, 2, 3].map((i) => (
+              <div
+                key={i}
+                className="w-4 h-4 bg-emerald-400 rounded-full animate-bounce"
+                style={{ animationDelay: `${i * 0.2}s` }}
+              ></div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
    
   )
