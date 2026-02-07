@@ -116,7 +116,7 @@ function Education() {
 
       {/* Coming Soon Section */}
       <section ref={comingSoonRef} className={`relative z-10 py-20 px-6 transition-all duration-700 ${comingSoonVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center pb-16">
           <div className="relative inline-block">
             <h2 className="text-6xl font-mono font-bold text-white mb-6 animate-pulse">
               More Coming Soon...
@@ -128,7 +128,7 @@ function Education() {
             🚀 Building amazing features for you
           </p>
 
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-4 ">
             {[1, 2, 3].map((i) => (
               <div
                 key={i}
