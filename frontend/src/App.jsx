@@ -2,6 +2,9 @@ import LoadingScreen from './LoadingScreen'
 import PortfolioHero from './Portfolio'
 import Education from './Education'
 import ChatBar from './ChatBar'
+import Navbar from './Navbar'
+import ShortProfile from './ShortProfile'
+import Back from '../public/Back'
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -10,18 +13,22 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setShowContent(true);
-    }, 1500);
+    }, 600);
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <>
       <LoadingScreen />
-      <div className={`transition-all duration-1000 ${showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
-        <PortfolioHero />
-        <Education />
+      <div className={`transition-opacity duration-700 ${showContent ? 'opacity-100' : 'opacity-70'}`}> 
+        <Navbar />
+        <Back>
+          <PortfolioHero />
+          <Education />
+          <ShortProfile />
+        </Back>
+        <ChatBar />
       </div>
-      <ChatBar />
-    </div>
+    </>
   )
 }
 
