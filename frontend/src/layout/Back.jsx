@@ -1,7 +1,7 @@
 import React from 'react';
 export default function Back({ children }) {
     return (
-        <div className="min-h-screen bg-[#070b1a] text-white relative overflow-hidden">
+        <div className="h-[fit-content] bg-[#070b1a] text-white relative overflow-hidden">
       {/* Grid background */}
       <div
         className="fixed inset-0 opacity-20 pointer-events-none"

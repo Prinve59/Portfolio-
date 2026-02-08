@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
-import { useScrollAnimation } from './useScrollAnimation';
-import ProOrbit from "./ProOrbit";
+// import "./index.css";
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import ProOrbit from "../components/ProOrbit";
 
 
 export default function PortfolioHero() {

@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-import { useScrollAnimation } from './useScrollAnimation';
+// import "./index.css";
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 export default function ShortProfile() {
         const [profileRef, profileVisible] = useScrollAnimation();
         const [comingSoonRef, comingSoonVisible] = useScrollAnimation();

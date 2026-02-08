@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-import { useScrollAnimation } from './useScrollAnimation';
+// import "./index.css";
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 function Education() {
   const [cardsRef, cardsVisible] = useScrollAnimation();

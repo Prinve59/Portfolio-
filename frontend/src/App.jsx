@@ -1,10 +1,10 @@
-import LoadingScreen from './LoadingScreen'
-import PortfolioHero from './Portfolio'
-import Education from './Education'
-import ChatBar from './ChatBar'
-import Navbar from './Navbar'
-import ShortProfile from './ShortProfile'
-import Back from '../public/Back'
+import LoadingScreen from './components/LoadingScreen'
+import PortfolioHero from './sections/Portfolio'
+import Education from './sections/Education'
+import ChatBar from './components/ChatBar'
+import Navbar from './components/Navbar'
+import ShortProfile from './sections/ShortProfile'
+import Back from './layout/Back'
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -20,13 +20,13 @@ function App() {
     <>
       <LoadingScreen />
       <div className={`transition-opacity duration-700 ${showContent ? 'opacity-100' : 'opacity-70'}`}> 
-        <Navbar />
         <Back>
+        <Navbar />
           <PortfolioHero />
           <Education />
           <ShortProfile />
-        </Back>
         <ChatBar />
+        </Back>
       </div>
     </>
   )
