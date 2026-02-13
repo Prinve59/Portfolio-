@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 // import "./index.css";
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import ProOrbit from "../components/ProOrbit";
+import { LanguageContext } from '../LanguageContext';
 
 
 export default function PortfolioHero() {
   const [heroRef, heroVisible] = useScrollAnimation();
   const [statsRef, statsVisible] = useScrollAnimation();
+  const { t } = useContext(LanguageContext);
   
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -67,10 +69,10 @@ export default function PortfolioHero() {
 
           {/* Left - Second on mobile */}
           <div className="md:order-1">
-            <p className="text-gray-400 mb-2">Software Engineer</p>
+            <p className="text-gray-400 mb-2">{t('hero.role')}</p>
 
             <h2 className="text-5xl md:text-6xl font-mono mb-4">
-              Hello I'm
+              {t('hero.greeting')}
             </h2>
 
             <h1 className="text-5xl md:text-6xl font-bold text-emerald-400 leading-tight relative inline-block overflow-hidden
@@ -84,16 +86,16 @@ export default function PortfolioHero() {
     before:transition-all before:duration-300
     before:-z-10
   ">
-              Prince <br />
+              {t('hero.name')} <br />
             </h1>
 
             <p className="text-gray-400 mt-6 max-w-lg">
-              Full-Stack Developer | Django & ML Enthusiast | Building scalable and user-friendly web apps
+              {t('hero.title')}
             </p>
 
             <div className="flex gap-4 mt-8 items-center">
               <button className="border border-emerald-400 text-emerald-400 px-6 py-3 rounded-full hover:bg-emerald-400 hover:text-black transition" onClick={handleDownload}>
-                VIEW CV →
+                {t('hero.view_cv')}
               </button>
 
               {/* Socials */}
@@ -121,10 +123,10 @@ export default function PortfolioHero() {
         {/* Stats */}
         <section ref={statsRef} className={`relative z-10 grid grid-cols-2 md:grid-cols-4 gap-10 px-8 pb-16 text-center pt-[10vh] transition-all duration-700 ${statsVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
           {[
-            ["21", "Age"],
-            ["1", "Year of experience"],
-            ["8", "Projects worked on"],
-            ["5", "Projects Deployed"],
+            ["21", t('stats.age')],
+            ["1", t('stats.experience')],
+            ["8", t('stats.projects')],
+            ["5", t('stats.deployed')],
           ].map(([num, label], i) => (
             <div key={i}>
               <h3 className="text-4xl font-bold">{num}</h3>

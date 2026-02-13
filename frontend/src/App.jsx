@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import ShortProfile from './sections/ShortProfile'
 import Back from './layout/Back'
 import { useState, useEffect } from 'react'
+import { LanguageProvider } from './LanguageContext.jsx'
 
 function App() {
   const [showContent, setShowContent] = useState(false);
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+      <LanguageProvider>
       <LoadingScreen />
       <div className={`transition-opacity duration-700 ${showContent ? 'opacity-100' : 'opacity-70'}`}> 
         <Back>
@@ -28,6 +30,7 @@ function App() {
         <ChatBar />
         </Back>
       </div>
+      </LanguageProvider>
     </>
   )
 }

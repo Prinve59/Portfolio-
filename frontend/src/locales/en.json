@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "personal": "Personal",
+    "contact": "Contact",
+    "language": "English"
+  },
+
+  "hero": {
+    "role": "Software Engineer",
+    "greeting": "Hello I'm",
+    "name": "Prince",
+    "title": "Full-Stack Developer | Django & ML Enthusiast | Building scalable and user-friendly web apps",
+    "view_cv": "View CV"
+  },
+
+  "stats": {
+    "age": "Age",
+    "experience": "Year of experience",
+    "projects": "Projects worked on",
+    "deployed": "Projects Deployed"
+  },
+
+  "education": {
+    "title": "Education",
+
+    "high_school": {
+      "name": "High School Certificate",
+      "duration": "Apr 2019 - Mar 2020",
+      "score": "86.4%",
+      "school": "Army Public School Patiala Cantt - Honorary Student"
+    },
+
+    "intermediate": {
+      "name": "Inter School Certificate",
+      "duration": "Apr 2021 - Jun 2022",
+      "score": "81%",
+      "school": "Army Public School Jhansi Cantt - Honorary Student"
+    },
+
+    "btech": {
+      "name": "B.Tech in Computer Science",
+      "duration": "2023 - 2027",
+      "score": "8.0 CGPA",
+      "college": "KIET Group of Institutions"
+    }
+  },
+
+  "profile": {
+    "title": "Short Profile",
+    "professional_tab": "Professional",
+    "personal_tab": "Personal",
+
+    "professional_text": "Passionate full-stack developer who enjoys building impactful and fun web apps.",
+
+    "personal_text": "Fluent in English, Passionate about Web Development, AI & building meaningful projects."
+  },
+
+  "extra": {
+    "coming_soon": "More Coming Soon...",
+    "building": "Building amazing features for you"
+  },
+
+  "chat": {
+    "prompt": "Ask anything about me...",
+    "send": "Send",
+    "soon": "Coming Soon",
+    "development": "Currently developing this feature, stay tuned!"
+  }
+}

@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState, useEffect ,useContext } from 'react';
+import { LanguageContext } from "../LanguageContext";
 export default function Navbar() {
     const [showLangDropdown, setShowLangDropdown] = useState(false);
     const [selectedLang, setSelectedLang] = useState('English');
     const [selectedFlag, setSelectedFlag] = useState('us');
+    const { changeLanguage ,t } = useContext(LanguageContext);
 
     return (
         <>
@@ -15,8 +16,8 @@ export default function Navbar() {
             <span className="absolute inset-0 bg-emerald-400 w-0 group-hover:w-full transition-all duration-300 -z-10"></span>
             </h1>
             <div className="flex gap-3 md:gap-6 items-center text-sm md:text-xl text-white">
-            <a href="#" className="hover:text-emerald-400">Personal</a>
-            <a href="#" className="hover:text-emerald-400">Contact</a>
+            <a href="#" className="hover:text-emerald-400">{t("nav.personal")} </a>
+            <a href="#" className="hover:text-emerald-400">{t("nav.contact")}</a>
             <div className="relative">
                 <button 
                     onClick={() => setShowLangDropdown(!showLangDropdown)}
@@ -26,10 +27,20 @@ export default function Navbar() {
                 </button>
                 {showLangDropdown && (
                     <div className="absolute top-full mt-2 right-0 bg-[#0b1224] text-sm border border-emerald-400/30 rounded-lg overflow-hidden min-w-[140px]">
-                        <button onClick={() => { setSelectedLang('English'); setSelectedFlag('us'); setShowLangDropdown(false); }} className="w-full px-4 py-2 text-left hover:bg-emerald-400/20 transition flex items-center gap-2">
+                        <button onClick={() => { 
+                            setSelectedLang('English'); 
+                            setSelectedFlag('us'); 
+                            setShowLangDropdown(false); 
+                            changeLanguage('en');
+                            }} className="w-full px-4 py-2 text-left hover:bg-emerald-400/20 transition flex items-center gap-2">
                             <img src="https://flagcdn.com/16x12/us.png" alt="US" className="w-4 h-3" /> English
                         </button>
-                        <button onClick={() => { setSelectedLang('Hindi'); setSelectedFlag('in'); setShowLangDropdown(false); }} className="w-full px-4 py-2 text-left hover:bg-emerald-400/20 transition flex items-center gap-2">
+                        <button onClick={() => { 
+                            setSelectedLang('Hindi'); 
+                            setSelectedFlag('in'); 
+                            setShowLangDropdown(false); 
+                            changeLanguage('hi');   
+                            }} className="w-full px-4 py-2 text-left hover:bg-emerald-400/20 transition flex items-center gap-2">
                             <img src="https://flagcdn.com/16x12/in.png" alt="IN" className="w-4 h-3" /> Hindi
                         </button>
                     </div>
