@@ -1,0 +1,12 @@
+django
+django-cors-headers
+faiss-cpu
+rank-bm25
+sentence-transformers
+groq
+numpy
+PyGithub
+faiss-cpu
+sentence_transformers
+langchain_community
+langchain-groq

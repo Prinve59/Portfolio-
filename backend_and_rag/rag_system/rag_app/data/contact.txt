@@ -1,0 +1,187 @@
+---
+
+document_id: CONTACT_001
+title: Contact Information and Online Presence
+category: Contact
+importance: Critical
+version: 1.2
+
+tags:
+
+* contact
+* github
+* linkedin
+* portfolio
+* coding
+* online-presence
+* repositories
+
+---
+
+# Contact Information and Online Presence
+
+## Basic Information
+
+**Full Name:** Prince Singh
+
+**Preferred Name:** Prince
+
+**Location:** India
+
+**Current Institution:** KIET Group of Institutions
+
+---
+
+# Contact Details
+
+## Primary Email
+
+**Email:**
+[prinve59@gmail.com](mailto:prinve59@gmail.com)
+
+---
+
+# Professional Portfolio
+
+**Website:**
+https://prinve59-portfolio.vercel.app/
+
+---
+
+# Professional Profiles
+
+## GitHub
+
+**Username:** `prinve59`
+
+**Profile:**
+https://github.com/prinve59
+
+---
+
+## LinkedIn
+
+**Username:** `prinve59`
+
+**Profile:**
+https://www.linkedin.com/in/prinve59/
+
+---
+
+## LeetCode
+
+**Username:** `prinve59`
+
+**Profile:**
+https://leetcode.com/u/prinve59/
+
+---
+
+## HackerRank
+
+**Username:** `prinve59`
+
+**Profile:**
+https://www.hackerrank.com/prinve59
+
+**Achievements**
+
+* Python ★★★★ (4 Star)
+* C ★★★★ (4 Star)
+
+---
+
+## CodeChef
+
+**Username:** `prinve59`
+
+**Profile:**
+https://www.codechef.com/users/prinve59
+
+---
+
+## Coding Ninjas (Code360)
+
+**Username:** `prinve59`
+
+**Profile:**
+https://www.naukri.com/code360/profile/prinve59
+
+---
+
+## X (Twitter)
+
+**Username:** `Prince42185072`
+
+**Profile:**
+https://x.com/Prince42185072
+
+---
+
+## Discord
+
+**Username:** `prinve59`
+
+---
+
+## Telegram
+
+**Username:** `prinve59`
+
+---
+
+## WhatsApp
+
+**Contact Name / Username:** `prinve59`
+
+---
+
+# GitHub Repository Index
+
+> **GitHub Base URL:**
+> https://github.com/prinve59
+
+| Repository                      | GitHub Link                                                 | Category                | Status |
+| ------------------------------- | ----------------------------------------------------------- | ----------------------- | ------ |
+| UniBuddy                        | https://github.com/prinve59/UniBuddy                        | Full Stack / Django     | Active |
+| BunkIt                          | https://github.com/prinve59/BunkIt                          | Django Project          | Active |
+| StayHomez                       | https://github.com/prinve59/StayHomez                       | Web Project             | Active |
+| Retrieval-Augmented-Generation- | https://github.com/prinve59/Retrieval-Augmented-Generation- | AI / RAG                | Active |
+| Movie-Recommendation-           | https://github.com/prinve59/Movie-Recommendation-           | Machine Learning        | Active |
+| VeriFund                        | https://github.com/prinve59/VeriFund                        | Project                 | Active |
+| Noise-Compression               | https://github.com/prinve59/Noise-Compression               | Research / Experimental | Active |
+| Ecomotion                       | https://github.com/prinve59/Ecomotion                       | Project                 | Active |
+| true-chain-play                 | https://github.com/prinve59/true-chain-play                 | Experimental            | Active |
+| ICD-11-TM-2-Name-generalization | https://github.com/prinve59/ICD-11-TM-2-Name-generalization | Research                | Active |
+
+> **Note:** Repository names and URLs should be verified periodically. If a repository is renamed or made private, update this index accordingly.
+
+---
+
+# Online Identity
+
+Across almost all technical and coding platforms, Prince uses the consistent username:
+
+**prinve59**
+
+Maintaining a unified username helps with discoverability, personal branding, and linking projects across different platforms.
+
+---
+
+# Future Expansion
+
+This document can later include:
+
+* Open Source Contributions
+* GitHub Statistics
+* Repository Stars and Forks
+* Pinned Repositories
+* Technical Blogs
+* Research Publications
+* Certifications
+* Hackathon Participation
+* Conference Talks
+* Professional Experience
+* Resume Links
+* Project Demo Links
+* API Documentation Links

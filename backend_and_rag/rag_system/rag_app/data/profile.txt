@@ -1,0 +1,361 @@
+---
+document_id: PROFILE_001
+title: Personal Profile
+category: Personal Information
+importance: Critical
+version: 1.0
+
+tags:
+  - prince
+  - profile
+  - biography
+  - student
+  - ai
+  - developer
+  - engineer
+
+related_documents:
+  - biography.md
+  - education.md
+  - achievements.md
+  - personality.md
+  - goals.md
+---
+
+# Personal Profile
+
+## Basic Identity
+
+Name: Prince Singh
+
+Preferred Name:
+Prince
+
+Nationality:
+Indian
+
+Current Status:
+Undergraduate Engineering Student
+
+Institution:
+KIET Group of Institutions
+
+Current Academic Program:
+Bachelor of Technology (B.Tech)
+
+Primary Interest Areas:
+
+- Artificial Intelligence
+- Machine Learning
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+- Large Language Models
+- Backend Engineering
+- Full Stack Development
+- System Design
+- Data Structures & Algorithms
+
+---
+
+# Professional Summary
+
+Prince Singh is an engineering student with a strong inclination toward practical software development and applied artificial intelligence. Rather than focusing only on academic learning, he prefers building complete systems, experimenting with modern AI technologies, debugging real deployment problems, and understanding software from first principles.
+
+His learning style emphasizes implementation over memorization. Whenever introduced to a new technology, he attempts to integrate it into an actual project rather than stopping after theoretical study.
+
+Over time his interests have gradually shifted from general programming toward backend engineering, large language model applications, and Retrieval-Augmented Generation systems.
+
+---
+
+# Current Technical Direction
+
+Current primary learning areas include:
+
+• Backend Development using Django
+
+• Artificial Intelligence
+
+• Machine Learning
+
+• Generative AI
+
+• Retrieval-Augmented Generation
+
+• LangChain
+
+• LangGraph
+
+• Vector Databases
+
+• Embedding Models
+
+• Semantic Search
+
+• GitHub Repository Knowledge Extraction
+
+• Production Deployment
+
+---
+
+# Programming Languages
+
+Known Languages
+
+Python
+Current strongest language.
+
+Used for:
+
+• AI
+
+• Machine Learning
+
+• RAG
+
+• Django
+
+• Automation
+
+• APIs
+
+• Data Processing
+
+C
+
+Used during initial programming education and DSA practice.
+
+Java
+
+Learned for object-oriented programming and academic coursework.
+
+HTML
+
+CSS
+
+Used for frontend development.
+
+---
+
+# Frameworks and Technologies
+
+Backend
+
+Django
+
+Django Channels
+
+WebSockets
+
+ASGI
+
+Daphne
+
+Gunicorn
+
+Frontend
+
+React
+
+Bootstrap
+
+Tailwind CSS
+
+HTMX
+
+Databases
+
+SQLite
+
+PostgreSQL
+
+AI Stack
+
+LangChain
+
+LangGraph
+
+Sentence Transformers
+
+FAISS
+
+Embedding Models
+
+Groq API
+
+Prompt Engineering
+
+Retrieval Pipelines
+
+---
+
+# Learning Philosophy
+
+Prince consistently demonstrates a practical learning methodology.
+
+Instead of stopping after reading documentation, he usually builds complete projects that require integrating multiple technologies together.
+
+Examples include:
+
+• Authentication systems
+
+• Real-time communication
+
+• Deployment
+
+• PostgreSQL migration
+
+• AI-powered retrieval
+
+• Repository parsing
+
+• Embedding pipelines
+
+This practical approach allows him to gain experience with both successful implementations and debugging complex production issues.
+
+---
+
+# Engineering Mindset
+
+Several recurring characteristics are evident across previous conversations.
+
+Persistence
+
+When encountering deployment issues, runtime errors, dependency conflicts, or integration problems, Prince typically continues debugging until the issue is understood and resolved rather than abandoning the project.
+
+Curiosity
+
+Questions often focus on understanding internal mechanisms instead of merely obtaining working code.
+
+Examples include:
+
+• Understanding embeddings
+
+• Understanding hybrid retrieval
+
+• GitHub repository extraction
+
+• Django deployment internals
+
+• HTTP request flows
+
+• WebSocket architecture
+
+Optimization
+
+Prince frequently compares multiple approaches before selecting one.
+
+Examples:
+
+Sparse Retrieval vs Dense Retrieval
+
+BM25 vs Embeddings
+
+Hybrid Search
+
+FAISS vs other vector stores
+
+Hosting providers
+
+Deployment architectures
+
+---
+
+# Communication Preferences
+
+Preferred explanation style:
+
+Step-by-step
+
+Practical examples
+
+Real project demonstrations
+
+Production-oriented solutions
+
+Detailed reasoning
+
+Architecture explanations
+
+Implementation guidance
+
+---
+
+# Technical Interests
+
+Artificial Intelligence
+
+Machine Learning
+
+LLMs
+
+Retrieval-Augmented Generation
+
+Prompt Engineering
+
+Backend Development
+
+Distributed Systems
+
+Knowledge Retrieval
+
+Vector Search
+
+Deployment
+
+System Design
+
+---
+
+# Career Vision
+
+Prince is gradually moving toward becoming an AI Engineer capable of building production-ready intelligent applications.
+
+The long-term objective is not only to understand machine learning models but also to design complete AI systems that combine backend engineering, retrieval pipelines, large language models, scalable deployment, and user-facing applications.
+
+---
+
+# Current Strengths
+
+Strong curiosity
+
+High persistence
+
+Project-based learning
+
+Backend focus
+
+Rapid technology adoption
+
+Analytical thinking
+
+Debugging ability
+
+Production mindset
+
+Interest in optimization
+
+Continuous improvement
+
+---
+
+# Current Areas Being Improved
+
+Advanced DSA
+
+System Design
+
+Distributed Systems
+
+Advanced Machine Learning
+
+Production AI Infrastructure
+
+Scalable Retrieval Systems
+
+Agentic AI Architectures
+
+---
+
+# Summary
+
+Prince Singh is a practical AI-focused engineering student who enjoys transforming theoretical concepts into complete working software systems. His work spans backend engineering, AI applications, deployment, and Retrieval-Augmented Generation, with a consistent emphasis on understanding underlying mechanisms and building real-world solutions.

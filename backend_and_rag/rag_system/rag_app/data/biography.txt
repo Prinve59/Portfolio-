@@ -1,0 +1,317 @@
+---
+document_id: BIOGRAPHY_001
+title: Personal Biography
+category: Personal
+importance: Critical
+version: 1.0
+
+tags:
+  - biography
+  - life
+  - education
+  - aps
+  - kota
+  - kiet
+  - ai
+  - developer
+
+related_documents:
+  - profile.md
+  - education.md
+  - personality.md
+  - achievements.md
+  - timeline.md
+---
+
+# Biography
+
+## Introduction
+
+Prince Singh is an undergraduate engineering student from India with a strong passion for software engineering, backend development, artificial intelligence, and modern Large Language Model (LLM) applications. His learning journey reflects a gradual transition from traditional programming to advanced AI engineering, driven by curiosity and a desire to understand how systems work beneath the surface.
+
+Unlike many learners who stop after completing tutorials, Prince consistently prefers building complete projects. This project-first mindset has shaped much of his technical growth, allowing him to gain practical experience with deployment, debugging, databases, networking, AI frameworks, and Retrieval-Augmented Generation (RAG).
+
+Throughout his journey, he has demonstrated persistence, analytical thinking, and a willingness to spend considerable time solving difficult technical problems instead of abandoning them.
+
+---
+
+# Early Education
+
+Prince began his formal education at Army Public School, Chandimandir, located near Chandigarh.
+
+## LKG – UKG
+
+School:
+Army Public School, Chandimandir
+
+This was the beginning of his educational journey. Although no detailed personal experiences from this period have been documented, it marks the foundation of his academic life within the Army Public School system.
+
+---
+
+# Primary School
+
+## Class 1 – Class 5
+
+School:
+Army Public School, Jhansi
+
+After completing kindergarten, Prince continued his primary education at Army Public School, Jhansi.
+
+These years laid the academic foundation that would later support his interest in mathematics, logical reasoning, and analytical thinking.
+
+---
+
+# Middle and Secondary School
+
+## Class 6 – Class 10
+
+School:
+Army Public School, Patiala
+
+Duration:
+Approximately 2016–2020
+
+Milestone:
+
+Completed Class 10 in 2020.
+
+During these years, Prince continued developing academically while adapting to a new school environment.
+
+Although detailed subject preferences from this period have not been documented, mathematics and logical problem-solving later became central to his interests.
+
+---
+
+# Senior Secondary Education
+
+## Class 11 – Class 12
+
+School:
+Army Public School, Jhansi
+
+Duration:
+Approximately 2020–2022
+
+Completed:
+Class 12 in 2022.
+
+These years represented an important transition toward higher education. The academic demands increased significantly, preparing him for competitive examinations and future engineering studies.
+
+---
+
+# Kota Preparation Year
+
+## 2022–2023
+
+Following Class 12, Prince dedicated one year to preparing for engineering entrance examinations in Kota.
+
+This period focused primarily on structured academic preparation and represented a year of concentrated effort toward achieving admission into an engineering college.
+
+The experience likely strengthened his discipline and resilience, although detailed experiences from this year have not yet been documented.
+
+---
+
+# Engineering Journey
+
+## 2023 – Present
+
+Institution:
+KIET Group of Institutions
+
+Program:
+Bachelor of Technology
+
+Engineering marked the beginning of Prince's transition from academic theory to practical software development.
+
+Instead of limiting himself to classroom assignments, he actively explored technologies outside the curriculum, including backend development, deployment, real-time communication systems, artificial intelligence, and Retrieval-Augmented Generation.
+
+---
+
+# Discovery of Programming
+
+Programming gradually became one of Prince's strongest interests.
+
+He learned multiple programming languages over time, beginning with foundational languages used in engineering education before moving toward Python as his primary development language.
+
+Known languages include:
+
+- Python
+- C
+- Java
+- HTML
+- CSS
+
+Python eventually became his preferred language due to its versatility across backend development, artificial intelligence, automation, and rapid prototyping.
+
+---
+
+# Transition Toward Software Development
+
+As his confidence in programming increased, Prince began exploring complete software systems rather than isolated coding exercises.
+
+This transition led him toward technologies such as:
+
+- Django
+- PostgreSQL
+- Authentication Systems
+- WebSockets
+- React
+- HTMX
+- Tailwind CSS
+- Deployment Platforms
+
+Building complete applications became his preferred method of learning.
+
+---
+
+# Growth Through Projects
+
+Rather than creating only academic assignments, Prince consistently pursued practical projects that required integrating multiple technologies.
+
+His major long-term projects include:
+
+- UniBuddy
+- BunkIt
+- StayHomez
+- Retrieval-Augmented-Generation-
+- Movie-Recommendation-
+- VeriFund
+- Noise-Compression
+- Ecomotion
+- true-chain-play
+- ICD-11-TM-2-Name-generalization
+
+Each project contributed to different areas of learning, ranging from backend engineering and database management to AI workflows and repository analysis.
+
+---
+
+# Data Structures and Algorithms
+
+Alongside project development, Prince has invested time in Data Structures and Algorithms (DSA).
+
+His discussions frequently involve algorithmic optimization and efficient problem-solving, indicating a preference for understanding not just how to solve a problem, but why one approach is superior to another.
+
+Topics explored include:
+
+- Arrays
+- Strings
+- Binary Search
+- Linked Lists
+- Trees
+- Graphs
+- Dynamic Programming
+- Fenwick Trees
+- Segment Trees
+- Tries
+- Greedy Algorithms
+- Sliding Window
+- Two Pointers
+- Recursion
+- Backtracking
+
+DSA serves as an important complement to his software engineering and AI interests.
+
+---
+
+# Artificial Intelligence Journey
+
+Prince's interest gradually expanded beyond conventional software development into artificial intelligence.
+
+Instead of stopping at traditional Machine Learning, he progressed into modern Generative AI technologies.
+
+Areas studied include:
+
+- Machine Learning
+- LangChain
+- LangGraph
+- Prompt Engineering
+- Large Language Models
+- Embeddings
+- Vector Databases
+- Retrieval-Augmented Generation
+- Hybrid Retrieval
+- Dense Retrieval
+- Sparse Retrieval
+- Reranking
+
+His focus has increasingly shifted toward building intelligent systems rather than simply using AI models.
+
+---
+
+# Interest in Retrieval-Augmented Generation
+
+One of Prince's strongest current interests is Retrieval-Augmented Generation (RAG).
+
+Rather than treating RAG as a simple chatbot technique, he explores the complete engineering pipeline.
+
+Topics include:
+
+- Repository ingestion
+- GitHub scraping
+- Document chunking
+- Embedding generation
+- FAISS vector stores
+- Retrieval optimization
+- Context construction
+- Prompt assembly
+- Django integration
+- Frontend-backend communication
+- Deployment
+
+This practical focus reflects his preference for understanding complete systems.
+
+---
+
+# Learning Philosophy
+
+A defining characteristic of Prince's educational approach is learning by building.
+
+Instead of consuming tutorials passively, he consistently attempts to apply newly learned concepts in real-world projects.
+
+This approach has led to deeper understanding in areas such as:
+
+- Deployment
+- Authentication
+- AI integration
+- Database design
+- Debugging
+- Backend architecture
+
+Mistakes are viewed as opportunities to improve rather than setbacks.
+
+---
+
+# Achievements
+
+Known achievements include:
+
+- Qualified NTSE Stage 1.
+- Achieved HackerRank 4★ in Python.
+- Achieved HackerRank 4★ in C.
+- Successfully completed an extensive Agentic AI and Generative AI course covering LangChain, LangGraph, Retrieval-Augmented Generation, Guardrails, Deep Agents, LLM Evaluation, and LLM Gateways.
+
+These achievements reflect both academic ability and a sustained commitment to self-directed learning.
+
+---
+
+# Interests Outside Technology
+
+Beyond academics and software engineering, Prince enjoys several recreational activities.
+
+Hobbies include:
+
+- Playing badminton.
+- Playing football.
+- Watching web series.
+- Listening to music.
+
+These activities provide a balance between technical work and leisure.
+
+---
+
+# Looking Ahead
+
+Prince's long-term direction is centered on becoming a highly capable AI Engineer with strong expertise in backend systems, Retrieval-Augmented Generation, and production-grade intelligent applications.
+
+Rather than specializing in only one technology, he aims to combine software engineering principles with modern AI techniques to build scalable, practical, and impactful systems.
+
+His learning journey continues to evolve as he explores new technologies, strengthens his engineering skills, and builds increasingly sophisticated projects.

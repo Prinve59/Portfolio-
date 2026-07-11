@@ -1,0 +1,303 @@
+---
+document_id: EDUCATION_001
+title: Educational Journey
+category: Education
+importance: Critical
+version: 1.0
+
+tags:
+  - education
+  - school
+  - college
+  - aps
+  - kiet
+  - kota
+  - learning
+
+related_documents:
+  - biography.md
+  - achievements.md
+  - timeline.md
+  - personality.md
+  - skills.md
+---
+
+# Educational Journey
+
+## Overview
+
+Prince Singh's educational journey reflects a progression through multiple Army Public Schools across different cities before entering engineering education. This experience exposed him to different environments, teachers, classmates, and academic cultures while maintaining continuity within the Army Public School system.
+
+His education can be divided into six major phases:
+
+1. Early Education (LKG–UKG)
+2. Primary School
+3. Middle School
+4. Secondary School
+5. Senior Secondary School
+6. Engineering Education
+
+Each stage contributed differently to his personal, academic, and technical development.
+
+---
+
+# Phase 1: Early Education
+
+## LKG – UKG
+
+School:
+Army Public School, Chandimandir (Chandigarh Region)
+
+Approximate Years:
+2007–2009 (estimated from the known academic timeline)
+
+This stage marked the beginning of Prince's formal education. During these foundational years, students typically develop early literacy, numeracy, classroom discipline, communication, and social interaction skills.
+
+Although no specific memories or achievements from this period have been documented, it represents the starting point of his educational journey.
+
+---
+
+# Phase 2: Primary School
+
+## Class 1 – Class 5
+
+School:
+Army Public School, Jhansi
+
+Approximate Years:
+2009–2015
+
+Primary education forms the academic foundation upon which later learning is built.
+
+During this stage, students generally strengthen their understanding of:
+
+- English
+- Hindi
+- Mathematics
+- Environmental Science
+- General Knowledge
+- Computer Awareness
+
+Although detailed records from this period are unavailable, Prince's later interest in logical reasoning and analytical problem solving suggests that his mathematical foundation developed steadily during these years.
+
+---
+
+# Phase 3: Middle and Secondary School
+
+## Class 6 – Class 10
+
+School:
+Army Public School, Patiala
+
+Approximate Years:
+2015–2020
+
+Milestone:
+Completed Class 10 in 2020.
+
+This period represented an important stage of intellectual development.
+
+Students at this level are introduced to increasingly abstract concepts in mathematics and science while also preparing for board examinations.
+
+Typical subjects studied during this period include:
+
+- Mathematics
+- Science
+- Social Science
+- English
+- Hindi
+- Computer Science
+- General Studies
+
+Prince successfully completed his Class 10 board examinations in 2020.
+
+---
+
+# Achievement During School
+
+One of Prince's notable academic achievements was qualifying the first stage of the National Talent Search Examination (NTSE).
+
+## NTSE Stage 1 Qualification
+
+The National Talent Search Examination is a competitive scholarship examination that evaluates students on:
+
+- Logical Reasoning
+- Analytical Ability
+- Mental Ability
+- Mathematics
+- Science
+- Social Science
+
+Qualifying Stage 1 demonstrates strong analytical aptitude and academic capability.
+
+---
+
+# Phase 4: Senior Secondary Education
+
+## Class 11 – Class 12
+
+School:
+Army Public School, Jhansi
+
+Approximate Years:
+2020–2022
+
+Completed:
+Class 12 (2022)
+
+This stage represented preparation for higher education and engineering entrance examinations.
+
+took pcm(physics,chemistry,mathematics), this period involved more specialized academic study and preparation for competitive examinations.
+
+The transition from secondary education to senior secondary education typically emphasizes independent learning, disciplined study habits, and long-term academic planning.
+
+---
+
+# Phase 5: Kota Preparation
+
+Duration:
+2022–2023
+
+Following Class 12, Prince dedicated one academic year to engineering entrance preparation in Kota.
+
+Purpose:
+
+- Strengthen academic fundamentals
+- Prepare for engineering entrance examinations
+- Improve conceptual understanding
+- Build disciplined study routines
+
+This period required sustained focus and resilience.
+
+Even though detailed personal experiences have not been documented, this phase represents an important chapter in his educational timeline before entering engineering college.
+
+---
+
+# Phase 6: Engineering
+
+Institution:
+KIET Group of Institutions
+
+Program:
+Bachelor of Technology
+
+Approximate Start:
+2023
+
+Engineering significantly changed Prince's learning style.
+
+Instead of limiting himself to classroom learning, he began actively exploring technologies beyond the curriculum.
+
+Examples include:
+
+- Django
+- React
+- PostgreSQL
+- WebSockets
+- HTMX
+- Tailwind CSS
+- Deployment
+- Artificial Intelligence
+- LangChain
+- LangGraph
+- Retrieval-Augmented Generation
+
+This shift marks the beginning of self-directed professional learning.
+
+---
+
+# Learning Beyond the Classroom
+
+A recurring pattern throughout Prince's engineering education is learning independently.
+
+Rather than depending solely on prescribed coursework, he frequently explores:
+
+- Official documentation
+- Open-source repositories
+- AI research concepts
+- Backend architecture
+- Deployment workflows
+- Debugging strategies
+- Modern software engineering practices
+
+This habit has become one of the defining characteristics of his educational journey.
+
+---
+
+# Engineering Subjects of Interest
+
+Based on previous conversations, Prince has shown sustained interest in topics including:
+
+- Programming
+- Data Structures and Algorithms
+- Database Systems
+- Artificial Intelligence
+- Machine Learning
+- Backend Development
+- Software Engineering
+- Computer Networks
+- Operating Systems
+- Web Technologies
+
+These areas align closely with his project work and independent learning.
+
+---
+
+# Self-Learning Approach
+
+Prince rarely treats classroom instruction as the endpoint of learning.
+
+Instead, his usual workflow is:
+
+1. Learn the fundamentals.
+2. Build a small implementation.
+3. Expand it into a complete project.
+4. Deploy it.
+5. Debug real-world issues.
+6. Optimize the implementation.
+7. Understand the underlying architecture.
+
+This iterative approach has contributed significantly to his technical growth.
+
+---
+
+# Relationship Between Education and Projects
+
+Many of Prince's projects extend concepts learned during his engineering education.
+
+Examples include:
+
+- Backend architecture through Django projects.
+- Database concepts through PostgreSQL integration.
+- Networking concepts through WebSockets.
+- AI concepts through LangChain and RAG implementations.
+- Software engineering practices through deployment and debugging.
+
+Projects therefore serve as practical extensions of formal education.
+
+---
+
+# Continuous Learning Philosophy
+
+Education for Prince extends beyond obtaining grades or completing coursework.
+
+Learning is viewed as a continuous process involving:
+
+- Reading documentation
+- Building projects
+- Solving bugs
+- Exploring new technologies
+- Comparing different approaches
+- Improving previous implementations
+
+This mindset supports long-term growth in software engineering and artificial intelligence.
+
+---
+
+# Summary
+
+Prince's educational journey combines structured schooling with extensive self-directed learning.
+
+Beginning with Army Public Schools, progressing through a dedicated engineering entrance preparation year, and continuing into engineering education, his path demonstrates increasing independence and a growing focus on practical software development.
+
+The transition from classroom learning to project-based exploration has become the defining characteristic of his educational experience and forms the foundation for his current interests in AI engineering and Retrieval-Augmented Generation systems.
