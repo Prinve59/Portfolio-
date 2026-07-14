@@ -63,7 +63,9 @@
   "chat": {
     "prompt": "Ask anything about me...",
     "send": "Send",
-    "soon": "Coming Soon",
-    "development": "Currently developing this feature, stay tuned!"
+    "title": "Ask me anything",
+    "empty": "Ask me anything about me!",
+    "thinking": "Thinking...",
+    "error": "Something went wrong. Please try again."
   }
 }

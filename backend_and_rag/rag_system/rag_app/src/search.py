@@ -1,4 +1,5 @@
 import os
+import pickle
 import numpy as np
 from typing import List, Any
 from dotenv import load_dotenv
@@ -24,10 +25,17 @@ class RagSearch:
             self.vector_store.load()
 
         # BM25 over stored chunks
-        texts = [m["text"] for m in self.vector_store.metadata]
-        self.bm25 = BM25Okapi([t.lower().split() for t in texts])
-        self.texts = texts
-        print(f"[INFO] BM25 index built over {len(texts)} chunks")
+        self.texts = [m["text"] for m in self.vector_store.metadata]
+        bm25_path = os.path.join(persist_dir, "bm25.pkl")
+        if force_rebuild or not os.path.exists(bm25_path):
+            self.bm25 = BM25Okapi([t.lower().split() for t in self.texts])
+            with open(bm25_path, "wb") as f:
+                pickle.dump(self.bm25, f)
+            print(f"[INFO] BM25 index built and saved over {len(self.texts)} chunks")
+        else:
+            with open(bm25_path, "rb") as f:
+                self.bm25 = pickle.load(f)
+            print(f"[INFO] BM25 index loaded from disk")
 
         self.reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
         self.llm = ChatGroq(model=llm_model, groq_api_key=os.getenv("groq_api_key"), temperature=0)
@@ -69,7 +77,19 @@ class RagSearch:
         context = "\n\n".join(top_docs)
         if not context:
             return "no relevant content found"
-        prompt = f"Answer the following query using only the context provided. Be concise. and always think that u are prince and you yourself is answering this question and talk like i am talking to someone in chat little joke type and funny conversation and give link type in hyperlink clickable\n\nContext:\n{context}\n\nQuery: {query}"
+        prompt = f"""You are Prince Singh. Answer the query as if you are Prince himself, in a friendly and slightly fun chat tone.
+
+Strict rules:
+- Use ONLY the information from the context below. Do not add anything not present in the context.
+- NEVER invent or guess URLs. Only use URLs that are explicitly present in the context.
+- When a URL exists in the context, format it as [Label](url).
+- If no URL exists for a term, write it as plain text only. NEVER write [text](no url provided) or [text](#) or any placeholder.
+- Be concise.
+
+Context:
+{context}
+
+Query: {query}"""
         response = self.llm.invoke([prompt])
         return response.content
         
