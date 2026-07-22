@@ -2,7 +2,7 @@ import React, { useState, useContext, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { LanguageContext } from '../LanguageContext';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://204.48.16.29/';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://204.48.16.29';
 
 export default function ChatBar() {
   const [message, setMessage] = useState('');
